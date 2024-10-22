@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NexCMS
 
-## Getting Started
+NexCMS, Next.js, React ve TypeScript ile geliştirilmiş modern ve esnek bir İçerik Yönetim Sistemidir. Çeşitli içerik türlerini, projeleri ve kullanıcı etkileşimlerini yönetmek için güçlü bir platform sunar.
 
-First, run the development server:
+## Özellikler
 
-```bash
+- Özelleştirilebilir widget'larla responsive dashboard
+- Proje yönetim sistemi
+- Kullanıcı kimlik doğrulama ve yetkilendirme
+- İçerik oluşturma ve yönetimi
+- Tüm platform genelinde arama işlevi
+- Koyu ve açık tema desteği
+- Kolay genişletilebilirlik için modüler mimari
+
+## Kurulum
+
+1. Repo'yu klonlayın:
+   ```
+   git clone https://github.com/your-username/nexcms.git
+   ```
+
+2. Proje dizinine gidin:
+   ```
+   cd nexcms
+   ```
+
+3. Bağımlılıkları yükleyin:
+   ```
+   npm install
+   ```
+
+4. Kök dizinde bir `.env.local` dosyası oluşturun ve gerekli ortam değişkenlerini ekleyin.
+
+## Kullanım
+
+Geliştirme modunda çalıştırmak için:
+
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Uygulama `http://localhost:3000` adresinde çalışacaktır.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Katkıda Bulunma
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+NexCMS'e katkılarınızı bekliyoruz! Lütfen katkıda bulunma kuralları için `CONTRIBUTING.md` dosyasına bakın.
 
-## Learn More
+## Lisans
 
-To learn more about Next.js, take a look at the following resources:
+Bu proje MIT Lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+NexCMS'i kullandığınız için teşekkür ederiz!
