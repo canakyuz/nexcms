@@ -16,7 +16,7 @@ NexCMS, Next.js, React ve TypeScript ile geliştirilmiş modern ve esnek bir İ�
 
 1. Repo'yu klonlayın:
    ```
-   git clone https://github.com/your-username/nexcms.git
+   git clone https://github.com/canakyuz/nexcms.git
    ```
 
 2. Proje dizinine gidin:
